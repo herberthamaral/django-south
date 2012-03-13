@@ -1,4 +1,3 @@
-
 # Establish the common DatabaseOperations instance, which we call 'db'.
 # Much thanks to cmkmrr for a lot of the code base here
 
@@ -10,6 +9,7 @@ engine_modules = {
     'django.db.backends.postgresql_psycopg2': 'postgresql_psycopg2',
     'django.db.backends.sqlite3': 'sqlite3',
     'django.db.backends.mysql': 'mysql',
+    'google.appengine.ext.django.backends.rdbms': 'mysql',
     'django.db.backends.oracle': 'oracle',
     'sql_server.pyodbc': 'sql_server.pyodbc',
     'django.contrib.gis.db.backends.postgis': 'postgresql_psycopg2',
